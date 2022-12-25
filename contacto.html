@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>NETWORK  Soluciones Moviles para Empresas</title>
+
+    <!-- Cargando iconos -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+
+    <!-- Carga de archivos css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body class="paguinas-internas"> 
+    <section class="bienvenidos">
+        <header class="encabezado fixed-top" role="banner">
+            <div class="container">
+                <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo del sitio"></a>
+
+                <button type="button" class="boton-buscar order-md-2" data-bs-toggle="collapse" data-bs-target="#bloque-buscar" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <button type="button" class="boton-menu d-md-none" data-bs-toggle="collapse" data-bs-target="#Menu-principal" aria-expanded="false"><i class="fa fa-reorder" aria-hidden="true"></i></button>
+
+                <form action="#" id="bloque-buscar" class="collapse order-md-3">
+                    <div class="contenedor-bloque-buscar">
+                        <input type="text" placeholder="Buscar...">
+                        <input type="submit" value="Buscar">
+                    </div>
+                </form>
+
+                <nav id="Menu-principal" class="collapse order-md-1 flex-md-grow-0 flex-md-shrink-1 flex-md-fill">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li class="active"><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+
+        <div class="texto-encabezado text-center">
+            <h1 class="display-4 wow bounceIn">Contacto</h1>
+            <P class="wow bounceIn" data-wow-delay=".3s">Estamos listos para ayudarte</P>
+        </div>
+    </section>
+
+    <section class="ruta py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-end">
+                    <a href="index.html">Inicio</a> » Contacto
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="mb-3">Formulario de contacto</h3>
+                    <form action="#" id="Formulario-contacto">
+                        <div class="form-group row">
+                            <label for="nombre" class="col-md-4 col-form-label">Nombre</label>
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" id="nombre" placeholder="Ingrese su nombre" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su nombre">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label">Email</label>
+                            <div class="col-md-8">
+                                <input class="form-control" type="email" id="email" placeholder="usuario@gmail.com" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su email">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="mensaje" class="col-md-4 col-form-label">Mensaje</label>
+                            <div class="col-md-8">
+                                <textarea class="form-control" name="mensaje" id="mensaje" placeholder="Ingrese su mensaje" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingrese su mansaje"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="offset-md-4 col-md-8">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                                <button type="reset" class="btn btn-outline-primary">Limpiar</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h3>Detalles de contacto</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint quo asperiores quod est eveniet molestias ullam placeat! Alias quidem quaerat necessitatibus repellendus nihil accusamus eaque a sequi aspernatur. Sapiente, ducimus.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+  
+
+
+    <footer class="piedepaguina py-2 text-center" role="contentinfo">
+        <div class="container">
+            <p>2016 © NETWORK Todos los derechos reservados</p>
+            <ul class="redes-sociales">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <a data-scroll href="#" class="ir-arriba"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/sitio.js"></script>
+</body>
+</html>

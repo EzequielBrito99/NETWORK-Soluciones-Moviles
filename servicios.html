@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>NETWORK  Soluciones Moviles para Empresas</title>
+
+    <!-- Cargando iconos -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+
+    <!-- Carga de archivos css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body class="paguinas-internas"> 
+    <section class="bienvenidos">
+        <header class="encabezado fixed-top" role="banner">
+            <div class="container">
+                <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo del sitio"></a>
+
+                <button type="button" class="boton-buscar order-md-2" data-bs-toggle="collapse" data-bs-target="#bloque-buscar" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <button type="button" class="boton-menu d-md-none" data-bs-toggle="collapse" data-bs-target="#Menu-principal" aria-expanded="false"><i class="fa fa-reorder" aria-hidden="true"></i></button>
+
+                <form action="#" id="bloque-buscar" class="collapse order-md-3">
+                    <div class="contenedor-bloque-buscar">
+                        <input type="text" placeholder="Buscar...">
+                        <input type="submit" value="Buscar">
+                    </div>
+                </form>
+
+                <nav id="Menu-principal" class="collapse order-md-1 flex-md-grow-0 flex-md-shrink-1 flex-md-fill">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li class="active"><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+
+        <div class="texto-encabezado text-center">
+            <h1 class="display-4 wow bounceIn">Servicios</h1>
+            <P class="wow bounceIn" data-wow-delay=".3s">Diseñamos APPS para empresas.</P>
+        </div>
+    </section>
+
+    <section class="ruta py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-end">
+                    <a href="index.html">Inicio</a> » Servicios
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="py-2 lista-servicios">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <article class="item-servicios">
+                        <i class="fa fa-bullseye" aria-hidden="true"></i>
+                        <h4>Desarrollo de aplicaciones moviles</h4>
+                        <p>Desarrollamos aplicaciones móviles y plataformas web. Nuestra principal cualidad está en el desarrollo de software a medida de tus necesidades. </p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalServicio1">Mas Informacion</a>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="item-servicios">
+                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        <h4>Consultoría Tecnológica</h4>
+                        <p>Ofrecemos consultoría tecnológica especializada en movilidad, necesaria previo al desarrollo de cualquier proyecto. </p>
+                        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalServicio2">Mas Informacion</a>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="item-servicios">
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                        <h4>Marketing y publicidad Movil</h4>
+                        <p>Desarrollamos campañas publicitarias para tus APP. Hacemos conocer tu marca en el momento exacto para conseguir un mayor inpacto.. </p>
+                        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalServicio3">Mas Informacion</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="piedepaguina py-2 text-center" role="contentinfo">
+        <div class="container">
+            <p>2016 © NETWORK Todos los derechos reservados</p>
+            <ul class="redes-sociales">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <a data-scroll href="#" class="ir-arriba"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/sitio.js"></script>
+
+
+
+    <!----------------------------------->
+            <!-- MODALES -->
+    <!----------------------------------->
+
+    <!-- Modal1 -->
+    <div class="modal" id="modalServicio1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBasicLabel">Desarrollo de Aplicaciones Mobiles</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae vitae, quis modi tempora architecto nam omnis veniam voluptas quidem, obcaecati laudantium impedit cumque error magni perspiciatis ipsa autem quam culpa!</div>
+                        <div class="col-md-4">
+                            <img src="images/servicio-1.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal2 -->
+    <div class="modal" id="modalServicio2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBasicLabel">Consultoría Tecnológica</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae vitae, quis modi tempora architecto nam omnis veniam voluptas quidem, obcaecati laudantium impedit cumque error magni perspiciatis ipsa autem quam culpa!</div>
+                        <div class="col-md-4">
+                            <img src="images/servicio-2.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal3 -->
+    <div class="modal" id="modalServicio3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBasicLabel">Marketing y publicidad Movil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae vitae, quis modi tempora architecto nam omnis veniam voluptas quidem, obcaecati laudantium impedit cumque error magni perspiciatis ipsa autem quam culpa!</div>
+                        <div class="col-md-4">
+                            <img src="images/servicio-3.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
